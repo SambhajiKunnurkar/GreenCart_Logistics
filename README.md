@@ -1,14 +1,14 @@
-GreenCart Logistics - Delivery Simulation & KPI Dashboard
+# GreenCart Logistics - Delivery Simulation & KPI Dashboard
 This project is a full-stack web application . It serves as an internal tool for "GreenCart Logistics" managers to simulate delivery operations and analyze the impact of various factors on company KPIs like profit and efficiency.
 
-# 🚀 Live Links
+## 🚀 Live Links
 Live Frontend URL: (https://green-cart-logistics-hazel.vercel.app/login)
 
 Live Backend URL: (https://greencart-logistics-2-1ell.onrender.com)
 
 Walkthrough Video: (Https://drive.google.com/file/d/1m9eG83dI6WHRruOk8aOrTzcZxu5UifBL/view?usp=drivesdk)
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 This project was built using the MERN stack and other modern web technologies.
 
 Backend: Node.js, Express.js
@@ -25,17 +25,17 @@ API Testing: Postman
 
 Deployment:
 
-Backend deployed on Render.
+* Backend deployed on Render.
 
-Frontend deployed on Vercel.
+* Frontend deployed on Vercel.
 
-# ⚙️ Local Setup and Running the Project
+## ⚙️ Local Setup and Running the Project
 Follow these instructions to get the project running on your local machine.
 
 Prerequisites
-Node.js (v18 or later recommended)
+* Node.js (v18 or later recommended)
 
-npm
+* npm
 
 A free MongoDB Atlas account
 
@@ -43,7 +43,7 @@ A free MongoDB Atlas account
 First, set up the server which powers the application.
 
  1. Clone the repository
-git clone [Your GitHub Repository URL]
+git clone [https://github.com/SambhajiKunnurkar/GreenCart_Logistics/]
 cd GreenCart_Logistics
 
  2. Navigate to the backend directory
@@ -77,7 +77,7 @@ npm run dev
 
 The frontend will open and run on http://localhost:5173 (or another available port).
 
-# 🔑 Environment Variables
+## 🔑 Environment Variables
 The backend requires a .env file to store sensitive credentials. Create this file in the /backend directory.
 ```
  MongoDB Connection String from your Atlas Cluster
@@ -89,14 +89,14 @@ JWT_SECRET=your_super_secret_jwt_key_that_is_long_and_secure
  The port the server will run on
 PORT=5000
 ```
-# ☁️ Deployment
+## ☁️ Deployment
 This project is deployed as two separate services:
 
 Backend (Render): The Node.js/Express server is deployed as a "Web Service" on Render. The Root Directory is set to ./backend, and the Start Command is npm start. Environment variables are configured in the Render dashboard.
 
 Frontend (Vercel): The React/Vite application is deployed on Vercel. The Root Directory is set to ./frontend. A VITE_API_BASE_URL environment variable is set in the Vercel dashboard to point to the live Render backend URL.
 
-# 📄 API Documentation
+## 📄 API Documentation
 Here are the key API endpoints. All protected routes require a Bearer Token in the Authorization header.
 ```
 Auth
