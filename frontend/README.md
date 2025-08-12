@@ -42,22 +42,22 @@ A free MongoDB Atlas account
 1. Backend Setup
 First, set up the server which powers the application.
 
-# 1. Clone the repository
+ 1. Clone the repository
 git clone [Your GitHub Repository URL]
 cd GreenCart_Logistics
 
-# 2. Navigate to the backend directory
+ 2. Navigate to the backend directory
 cd backend
 
-# 3. Install dependencies
+ 3. Install dependencies
 npm install
 
-# 4. Create the .env file (see Environment Variables section below)
+ 4. Create the .env file (see Environment Variables section below)
 
-# 5. Seed the database with initial data from the CSV files
+ 5. Seed the database with initial data from the CSV files
 npm run seed
 
-# 6. Start the development server
+ 6. Start the development server
 npm run dev
 
 The backend will be running on http://localhost:5000.
@@ -65,13 +65,13 @@ The backend will be running on http://localhost:5000.
 2. Frontend Setup
 Next, set up the client-side React application.
 
-# 1. Navigate to the frontend directory from the root
+ 1. Navigate to the frontend directory from the root
 cd frontend
 
-# 2. Install dependencies
+ 2. Install dependencies
 npm install
 
-# 3. Start the Vite development server
+ 3. Start the Vite development server
 npm run dev
 
 The frontend will open and run on http://localhost:5173 (or another available port).
