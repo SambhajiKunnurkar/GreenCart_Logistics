@@ -33,9 +33,9 @@ Frontend deployed on Vercel.
 Follow these instructions to get the project running on your local machine.
 
 Prerequisites
-*Node.js (v18 or later recommended)
+Node.js (v18 or later recommended)
 
-*npm
+npm
 
 A free MongoDB Atlas account
 
@@ -79,7 +79,7 @@ The frontend will open and run on http://localhost:5173 (or another available po
 
 # 🔑 Environment Variables
 The backend requires a .env file to store sensitive credentials. Create this file in the /backend directory.
-
+```
  MongoDB Connection String from your Atlas Cluster
 MONGO_URI=mongodb+srv://<user>:<password>@cluster0.xxxxx.mongodb.net/greencart?retryWrites=true&w=majority
 
@@ -88,7 +88,7 @@ JWT_SECRET=your_super_secret_jwt_key_that_is_long_and_secure
 
  The port the server will run on
 PORT=5000
-
+```
 # ☁️ Deployment
 This project is deployed as two separate services:
 
