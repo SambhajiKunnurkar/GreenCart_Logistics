@@ -33,13 +33,13 @@ Frontend deployed on Vercel.
 Follow these instructions to get the project running on your local machine.
 
 Prerequisites
-Node.js (v18 or later recommended)
+*Node.js (v18 or later recommended)
 
-npm
+*npm
 
 A free MongoDB Atlas account
 
-1. Backend Setup
+```1. Backend Setup
 First, set up the server which powers the application.
 
  1. Clone the repository
@@ -73,10 +73,11 @@ npm install
 
  3. Start the Vite development server
 npm run dev
+```
 
 The frontend will open and run on http://localhost:5173 (or another available port).
 
-🔑 Environment Variables
+# 🔑 Environment Variables
 The backend requires a .env file to store sensitive credentials. Create this file in the /backend directory.
 
  MongoDB Connection String from your Atlas Cluster
@@ -88,16 +89,16 @@ JWT_SECRET=your_super_secret_jwt_key_that_is_long_and_secure
  The port the server will run on
 PORT=5000
 
-☁️ Deployment
+# ☁️ Deployment
 This project is deployed as two separate services:
 
 Backend (Render): The Node.js/Express server is deployed as a "Web Service" on Render. The Root Directory is set to ./backend, and the Start Command is npm start. Environment variables are configured in the Render dashboard.
 
 Frontend (Vercel): The React/Vite application is deployed on Vercel. The Root Directory is set to ./frontend. A VITE_API_BASE_URL environment variable is set in the Vercel dashboard to point to the live Render backend URL.
 
-📄 API Documentation
+# 📄 API Documentation
 Here are the key API endpoints. All protected routes require a Bearer Token in the Authorization header.
-
+```
 Auth
 POST /api/auth/register - Register a new manager account.
 
@@ -139,6 +140,7 @@ Example: Simulation Response
         "total": 7890
     }
 }
+```
 
 CRUD Operations
 Standard CRUD endpoints are available for /api/drivers, /api/routes, and /api/orders. They support GET, POST, PUT, and DELETE methods and are protected routes.
