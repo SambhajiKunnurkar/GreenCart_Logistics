@@ -1,14 +1,14 @@
 GreenCart Logistics - Delivery Simulation & KPI Dashboard
 This project is a full-stack web application . It serves as an internal tool for "GreenCart Logistics" managers to simulate delivery operations and analyze the impact of various factors on company KPIs like profit and efficiency.
 
-🚀 Live Links
+# 🚀 Live Links
 Live Frontend URL: (https://green-cart-logistics-hazel.vercel.app/login)
 
 Live Backend URL: (https://greencart-logistics-2-1ell.onrender.com)
 
 Walkthrough Video: (Https://drive.google.com/file/d/1m9eG83dI6WHRruOk8aOrTzcZxu5UifBL/view?usp=drivesdk)
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 This project was built using the MERN stack and other modern web technologies.
 
 Backend: Node.js, Express.js
@@ -29,7 +29,7 @@ Backend deployed on Render.
 
 Frontend deployed on Vercel.
 
-⚙️ Local Setup and Running the Project
+# ⚙️ Local Setup and Running the Project
 Follow these instructions to get the project running on your local machine.
 
 Prerequisites
@@ -79,13 +79,13 @@ The frontend will open and run on http://localhost:5173 (or another available po
 🔑 Environment Variables
 The backend requires a .env file to store sensitive credentials. Create this file in the /backend directory.
 
-# MongoDB Connection String from your Atlas Cluster
+ MongoDB Connection String from your Atlas Cluster
 MONGO_URI=mongodb+srv://<user>:<password>@cluster0.xxxxx.mongodb.net/greencart?retryWrites=true&w=majority
 
-# A long, random string for signing JWTs
+ A long, random string for signing JWTs
 JWT_SECRET=your_super_secret_jwt_key_that_is_long_and_secure
 
-# The port the server will run on
+ The port the server will run on
 PORT=5000
 
 ☁️ Deployment
