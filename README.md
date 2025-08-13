@@ -2,7 +2,7 @@
 This project is a full-stack web application . It serves as an internal tool for "GreenCart Logistics" managers to simulate delivery operations and analyze the impact of various factors on company KPIs like profit and efficiency.
 
 ## 🚀 Live Linkshttps://gr
-Live Frontend URL: [https://green-cart-logistics-5537.vercel.app/login]
+Live Frontend URL: [https://green-cart-logistics-5537.vercel.app/]
 
 Live Backend URL: [https://greencart-logistics-4.onrender.com/]
 
