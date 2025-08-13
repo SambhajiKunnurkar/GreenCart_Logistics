@@ -1,12 +1,12 @@
 # GreenCart Logistics - Delivery Simulation & KPI Dashboard
 This project is a full-stack web application . It serves as an internal tool for "GreenCart Logistics" managers to simulate delivery operations and analyze the impact of various factors on company KPIs like profit and efficiency.
 
-## 🚀 Live Links
-Live Frontend URL: (https://green-cart-logistics-hazel.vercel.app/)
+## 🚀 Live Linkshttps://gr
+Live Frontend URL: [https://green-cart-logistics-5537.vercel.app/login]
 
-Live Backend URL: (https://greencart-logistics-2-1ell.onrender.com)
+Live Backend URL: [https://greencart-logistics-4.onrender.com/]
 
-Walkthrough Video: (Https://drive.google.com/file/d/1m9eG83dI6WHRruOk8aOrTzcZxu5UifBL/view?usp=drivesdk)
+Walkthrough Video: [Https://drive.google.com/file/d/1m9eG83dI6WHRruOk8aOrTzcZxu5UifBL/view?usp=drivesdk]
 
 ## 🛠️ Tech Stack
 This project was built using the MERN stack and other modern web technologies.
